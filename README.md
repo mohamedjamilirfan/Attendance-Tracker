@@ -105,7 +105,7 @@ A simple yet effective web-based application to help students track their attend
 
 The **Academy Attendance Tracker** is also available as a mobile app. You can easily install it on your smartphone by scanning the QR code or clicking the **Install Button** on the **Get-App Page**.
 
-To generate the mobile app, we used **[WebIntoApp](https://www.webintoapp.com/)**. This website helped convert the Attendance Tracker web application into a fully functioning mobile app that you can download directly to your mobile device.
+To generate the mobile app, we used **[Web To App](https://www.webintoapp.com/)**. This website helped convert the Attendance Tracker web application into a fully functioning mobile app that you can download directly to your mobile device.
 
 ---
 
