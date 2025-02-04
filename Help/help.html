@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attendance Tracker</title>
+    <link rel="icon" href="../Images/logo.png" type="image/png" />
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet" />
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <img src="../Images/logo.png" alt="Logo" />
+        <a href="../index.html">Calculator</a>
+        <a href="../About/about.html">About</a>
+        <a href="help.html" id="help">Help</a>
+        <a
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+          "
+          href="../Get-App/app.html">
+          <i class="bi bi-phone icon-large"></i>
+          <span>Get App</span>
+        </a>
+        <a id="theme-toggle-wrapper">
+          <input type="checkbox" id="hide-checkbox" checked />
+          <label for="hide-checkbox" class="toggle">
+            <span class="toggle-button">
+              <span class="crater crater-1"></span>
+              <span class="crater crater-2"></span>
+              <span class="crater crater-3"></span>
+              <span class="crater crater-4"></span>
+              <span class="crater crater-5"></span>
+              <span class="crater crater-6"></span>
+              <span class="crater crater-7"></span>
+            </span>
+            <span class="star star-1"></span>
+            <span class="star star-2"></span>
+            <span class="star star-3"></span>
+            <span class="star star-4"></span>
+            <span class="star star-5"></span>
+            <span class="star star-6"></span>
+            <span class="star star-7"></span>
+            <span class="star star-8"></span>
+          </label>
+        </a>
+      </nav>
+      <div id="help-container">
+        <header>
+          <h1>Help & Support</h1>
+          <p>
+            Find answers to frequently asked questions and guidance for using
+            the Attendance Calculator.
+          </p>
+        </header>
+        <section>
+          <h2>FAQs</h2>
+          <div class="faq">
+            <h3>How do I calculate my attendance percentage?</h3>
+            <p>
+              Enter your total classes and attended classes, along with the
+              required attendance percentage. Click "Calculate" to see your
+              current attendance percentage, classes that can be missed, and
+              classes needed to meet the target.
+            </p>
+          </div>
+          <div class="faq">
+            <h3>What if I enter invalid numbers?</h3>
+            <p>
+              The calculator will show a popup asking you to provide valid
+              input. Ensure attended classes do not exceed total classes.
+            </p>
+          </div>
+          <div class="faq">
+            <h3>Can I reset the inputs?</h3>
+            <p>
+              Yes, click the "Reset" button to clear all inputs and results.
+            </p>
+          </div>
+        </section>
+        <section>
+          <h2>Need More Help?</h2>
+          <p>
+            If you have further questions, feel free to contact our support
+            team:
+          </p>
+          <p>
+            Email:
+            <a href="mailto:support@attendancecalc.com"
+              >support@attendancecalc.com</a
+            >
+          </p>
+          <p>Phone: +1-234-567-8900</p>
+        </section>
+      </div>
+      <footer>
+        <p>© 2025 Academy Attendance Tracker. All rights reserved.</p>
+      </footer>
+    </main>
+    <script src="../Javascript/main.js"></script>
+  </body>
+</html>
